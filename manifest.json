@@ -1,0 +1,13 @@
+{
+    "name": "Reproduce chrome.identity.getProfileUserInfo bug",
+    "description": "",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["index.js"]
+    },
+    "permissions": [
+      "identity",
+      "identity.email"
+    ]
+}
